@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-function Philosophy() {
+function Filosofia() {
   return (
     <div style={styles.page}>
       <Navbar />
@@ -33,4 +33,4 @@ const styles = {
   text: { color: '#666', lineHeight: '1.9', fontSize: '1rem', marginBottom: '1.5rem' },
 }
 
-export default Philosophy
+export default Filosofia

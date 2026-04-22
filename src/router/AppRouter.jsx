@@ -1,14 +1,14 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from '../pages/Home'
-import Philosophy from '../pages/Philosophy'
-import Gallery from '../pages/Gallery'
-import Booking from '../pages/Booking'
+import Inicio from '../pages/Inicio'
+import Filosofia from '../pages/Filosofia'
+import Galeria from '../pages/Galeria'
+import Reservas from '../pages/Reservas'
 
 const router = createBrowserRouter([
-  { path: '/',            element: <Home /> },
-  { path: '/philosophy',  element: <Philosophy /> },
-  { path: '/gallery',     element: <Gallery /> },
-  { path: '/booking',     element: <Booking /> },
+  { path: '/',            element: <Inicio /> },
+  { path: '/philosophy',  element: <Filosofia /> },
+  { path: '/gallery',     element: <Galeria /> },
+  { path: '/booking',     element: <Reservas /> },
 ])
 
 function AppRouter() {

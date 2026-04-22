@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-function Booking() {
+function Reservas() {
   const [form, setForm] = useState({ nombre: '', email: '', nivel: '', mensaje: '' })
 
   const handleChange = (e) => {
@@ -65,4 +65,4 @@ const styles = {
     cursor: 'pointer', fontSize: '0.95rem', letterSpacing: '1px', borderRadius: '2px' },
 }
 
-export default Booking
+export default Reservas

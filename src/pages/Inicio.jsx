@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-function Home() {
+function Inicio() {
   return (
     <div style={styles.page}>
       <Navbar />
@@ -31,4 +31,4 @@ const styles = {
     letterSpacing: '1px' },
 }
 
-export default Home
+export default Inicio

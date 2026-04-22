@@ -10,7 +10,7 @@ const imagenes = [
   { id: 6, titulo: 'Bonsái Maple', desc: 'Estilo bosque' },
 ]
 
-function Gallery() {
+function Galeria() {
   return (
     <div style={styles.page}>
       <Navbar />
@@ -47,4 +47,4 @@ const styles = {
   cardDesc: { padding: '0 1rem 1rem', color: '#888', fontSize: '0.85rem', margin: 0 },
 }
 
-export default Gallery
+export default Galeria
